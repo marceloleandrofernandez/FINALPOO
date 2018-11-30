@@ -1,0 +1,13 @@
+D:\Users\user1\Desktop\Editorial\EntidadesTest\bin\Debug\EntidadesTest.exe.config
+D:\Users\user1\Desktop\Editorial\EntidadesTest\bin\Debug\EntidadesTest.exe
+D:\Users\user1\Desktop\Editorial\EntidadesTest\bin\Debug\EntidadesTest.pdb
+D:\Users\user1\Desktop\Editorial\EntidadesTest\bin\Debug\EntidadesTest.xml
+D:\Users\user1\Desktop\Editorial\EntidadesTest\bin\Debug\Entidades.dll
+D:\Users\user1\Desktop\Editorial\EntidadesTest\bin\Debug\Entidades.pdb
+D:\Users\user1\Desktop\Editorial\EntidadesTest\bin\Debug\Entidades.xml
+D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.vbprojResolveAssemblyReference.cache
+D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.Resources.resources
+D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.vbproj.GenerateResource.Cache
+D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.exe
+D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.xml
+D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.pdb

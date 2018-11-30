@@ -1,0 +1,8 @@
+D:\Users\user1\Desktop\Editorial\Entidades\bin\Debug\Entidades.dll
+D:\Users\user1\Desktop\Editorial\Entidades\bin\Debug\Entidades.pdb
+D:\Users\user1\Desktop\Editorial\Entidades\bin\Debug\Entidades.xml
+D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.Resources.resources
+D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.dll
+D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.xml
+D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.pdb
