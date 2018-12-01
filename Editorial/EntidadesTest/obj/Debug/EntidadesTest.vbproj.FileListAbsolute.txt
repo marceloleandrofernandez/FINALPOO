@@ -11,3 +11,18 @@ D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.vbproj.Ge
 D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.exe
 D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.xml
 D:\Users\user1\Desktop\Editorial\EntidadesTest\obj\Debug\EntidadesTest.pdb
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\bin\Debug\EntidadesTest.exe.config
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\bin\Debug\EntidadesTest.exe
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\bin\Debug\EntidadesTest.pdb
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\bin\Debug\EntidadesTest.xml
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\bin\Debug\Entidades.dll
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\bin\Debug\Entidades.pdb
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\bin\Debug\Entidades.xml
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\obj\Debug\EntidadesTest.vbprojResolveAssemblyReference.cache
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\obj\Debug\EntidadesTest.Resources.resources
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\obj\Debug\EntidadesTest.vbproj.GenerateResource.cache
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\obj\Debug\EntidadesTest.vbproj.CoreCompileInputs.cache
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\obj\Debug\EntidadesTest.vbproj.CopyComplete
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\obj\Debug\EntidadesTest.exe
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\obj\Debug\EntidadesTest.xml
+D:\Development\visual studio 2017\FINALPOO\Editorial\EntidadesTest\obj\Debug\EntidadesTest.pdb

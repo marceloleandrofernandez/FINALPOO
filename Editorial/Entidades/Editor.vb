@@ -6,10 +6,13 @@
 
 
     Public Function CalcularGanancia() As Decimal Implements Empleado.CalcularGanancia
+        Dim total As Decimal        ' agregado
         For Each item In _materiales
-            Console.WriteLine(item.MontoContrato)
+            'Console.WriteLine(item.MontoContrato)
+            total += item.GananciaEditor() ' agregado
         Next
-        Return False
+        'Return False
+        Return total ' agregado
     End Function
 
     Public Property Dni As UInteger Implements Empleado.Dni
@@ -17,7 +20,7 @@
             Return _dni
         End Get
         Set(value As UInteger)
-            If value < 0 Then
+            If value < 0 Then 'redundante pues el tipo de datos ya no adminte negativos
                 Throw New ArgumentException("no se admiten Valores Negativos")
             Else
                 _dni = value

@@ -1,5 +1,7 @@
 ﻿Public Class Libro
     Inherits Material
+    ' override the following inherited 'MustOverride' member(s): 
+    'Material: Public MustOverride Function GananciaPorcentajePorAutor() As Byte.
 
     Private _ISBN As String
 
@@ -21,6 +23,17 @@
         Me.ISBN = isbn
     End Sub
     Public Overrides Function ToString() As String
-        Return ISBN
+        'Return ISBN corregido
+        Dim cadena As String = Titulo
+        For Each autor In getALLAutores()
+            cadena += autor.Nombre & ", "
+        Next
+        Return cadena.Substring(0, cadena.Length - 2) & "(" & ISBN & ")"
+    End Function
+
+    Public Overrides Function GananciaPorcentajePorAutor() As Byte
+        'Throw New NotImplementedException()
+        ' sin implementar funcionalidad, agregado
+        Return (100 - PorcentajeEditorPorLibro) / getALLAutores.Count
     End Function
 End Class

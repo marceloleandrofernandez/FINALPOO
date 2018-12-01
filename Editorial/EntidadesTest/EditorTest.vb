@@ -24,12 +24,17 @@ Module EditorTest
 
         edit.AddMaterial(mat)
         edit.AddMaterial(mat2)
+        Material.PorcentajeEditorPorBorrador = 50
+        Material.PorcentajeEditorPorLibro = 10
 
         For Each item In edit.getALLmaterial()
             Console.WriteLine("Titulo Material {0}", item.Titulo)
-            Console.WriteLine("Titulo Material {0}", item.Editor.Nombre)
-            Console.WriteLine("Titulo Material {0}", item.MontoContrato)
+            ' corregido todo lo que  viene
+            Console.WriteLine("Editor.Nombre {0}", item.Editor.Nombre)
+            Console.WriteLine("MontoContrato {0}", item.MontoContrato)
+            Console.WriteLine("GananciaEditor {0}", item.GananciaEditor)
         Next
+        Console.WriteLine("CalcularGanancia {0}", edit.CalcularGanancia)
         Console.ReadKey()
 
     End Sub

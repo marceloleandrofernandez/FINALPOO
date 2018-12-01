@@ -6,3 +6,13 @@ D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.vbproj.GenerateRe
 D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.dll
 D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.xml
 D:\Users\user1\Desktop\Editorial\Entidades\obj\Debug\Entidades.pdb
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\obj\Debug\Entidades.vbprojResolveAssemblyReference.cache
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\obj\Debug\Entidades.Resources.resources
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.cache
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\obj\Debug\Entidades.vbproj.CoreCompileInputs.cache
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\obj\Debug\Entidades.dll
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\obj\Debug\Entidades.xml
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\obj\Debug\Entidades.pdb
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\bin\Debug\Entidades.dll
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\bin\Debug\Entidades.pdb
+D:\Development\visual studio 2017\FINALPOO\Editorial\Entidades\bin\Debug\Entidades.xml

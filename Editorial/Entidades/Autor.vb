@@ -38,7 +38,8 @@
     End Sub
     Public Sub AddMaterial(material As Material)
         If material.getALLAutores().Count() >= 3 Then
-
+            ' debe lanzar excepción si se pasa la regla de cardinalidad
+            Throw New Exception("Solo se pueden agregar 3 autores")
         Else
             material.AddAutor(Me)
             _materiales.Add(material)
@@ -46,13 +47,20 @@
         
     End Sub
     Public Sub removeMaterial(material As Material)
-        material.AddAutor(Nothing)
+        'material.AddAutor(Nothing) 'corregido
+        material.removeAutor(Me)
         _materiales.Remove(material)
     End Sub
     Public Function getALLmaterial() As List(Of Material)
         Return _materiales
     End Function
     Public Function CalcularGanancia() As Decimal Implements Empleado.CalcularGanancia
-        Return False
+        'Return False
+        ' falta implementar la solución. corregido
+        Dim total As Decimal
+        For Each item In _materiales
+            total += item.MontoContrato * item.GananciaPorcentajePorAutor / 100
+        Next
+        Return total
     End Function
 End Class

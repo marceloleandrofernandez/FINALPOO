@@ -13,6 +13,12 @@ Module BorradorTest
         Console.WriteLine(borr.Titulo)
         Console.WriteLine(borr.MontoContrato)
 
+        ' agregado por incompleto
+        Material.PorcentajeEditorPorBorrador = 50
+        Dim Editor1 = New Editor(12345678, "Glaciar")
+        Editor1.AddMaterial(borr)
+        Console.WriteLine("GananciaEditor:" & borr.GananciaEditor())
+
         Console.ReadKey()
 
 

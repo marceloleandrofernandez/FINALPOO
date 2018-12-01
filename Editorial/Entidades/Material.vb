@@ -3,9 +3,9 @@
     Private _montoContrato As Decimal
     Shared _porcentajeEditorPorBorrador As Byte
     Shared _PorcentajeEditorPorLibro As Byte
-    Private Property _Editor As Editor
-    Private Property _Autores As List(Of Autor)
-
+    Private Property _Editor As Editor ' property esta de mas
+    Private Property _Autores As List(Of Autor) 'property esta de mas
+    ' autores debe ser protected
 
     Public Property Editor As Editor
         Get
@@ -67,18 +67,28 @@
         Me.MontoContrato = montoContrato
         _Autores = New List(Of Autor)
     End Sub
-    Public Sub AddAutor(autor As Autor)
+    'Public Sub AddAutor(autor As Autor) ' Corregido
+    Friend Sub AddAutor(autor As Autor)
         _Autores.Add(autor)
     End Sub
-    Public Sub removeAutor(autor As Autor)
-        autor.AddMaterial(Nothing)
+    'Public Sub removeAutor(autor As Autor) ' corregido
+    Friend Sub removeAutor(autor As Autor)
+        'autor.AddMaterial(Nothing) esta de mas ya que la responsabilidad esta en autor
         _Autores.Remove(autor)
     End Sub
     Public Function getALLAutores() As List(Of Autor)
         Return _Autores
     End Function
+
     Public MustOverride Function GananciaPorcentajePorAutor() As Byte
-    Public Function GananciaEditor() As Byte
-        Return False
+
+    'Public Function GananciaEditor() As Byte ' corregido
+    Public Function GananciaEditor() As Decimal
+        'Return False ' correccion
+        If TypeOf Me Is Borrador Then
+            Return MontoContrato * PorcentajeEditorPorBorrador / 100
+        Else
+            Return MontoContrato * PorcentajeEditorPorLibro / 100
+        End If
     End Function
 End Class

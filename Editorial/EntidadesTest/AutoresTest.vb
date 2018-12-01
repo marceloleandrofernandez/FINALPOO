@@ -30,7 +30,10 @@ Module Autores
         For Each item In aut.getALLmaterial()
             Console.WriteLine("Titulo Material {0}", item.Titulo)
             Console.WriteLine("Monto Material {0}", item.MontoContrato)
+            ' agregado
+            Console.WriteLine("GananciaPorcentajePorAutor {0}", item.GananciaPorcentajePorAutor)
         Next
+        Console.WriteLine("CalcularGanancia {0}", aut.CalcularGanancia)
         Console.ReadKey()
 
     End Sub
